@@ -1,440 +1,103 @@
-<!doctype html>
-<html lang="Default">
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/lazysizes.min.js" defer></script>
-    <title>Home</title>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Refresh" content="10;URL=https://www.6to8.in" />
+    <meta charset="UTF-8" />
+    <title>PLEASE NOTE NEW ADDRESS</title>
+    <meta
+      name="description"
+      content="Our site has moved to a new address. Please note the change of address."
+    />
 
-    
-<!-- Google Analytics -->
- 
-<!-- Google Analytics END -->
-    
-</head>
-<body>
-<!-- Main container -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-sunglow l-bloc" id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/b.png" alt="logo" height="100" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="navbar-collapse navbar-1 special-dropdown-nav collapse">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a onclick="scrollToTarget('#bloc-vision')" id="pl-undefined">Vision</a>
-					</li>
-					<li>
-						<a onclick="scrollToTarget('#bloc-hyperlocal')" id="pl-undefined">Solutions</a>
-					</li>
-					<li>
-						<a id="pl-undefined" onclick="scrollToTarget('#bloc-investors')">Investors</a>
-					</li>
-					<li>
-						<a onclick="scrollToTarget('#bloc-team')" id="pl-undefined">Team</a>
-					</li>
-					<li>
-						<a href="index.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</div>
-<!-- bloc-0 END -->
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if IE
+      ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
+    /><![endif]-->
 
-<!-- bloc-1 -->
-<div class="bloc hero bgc-white bg-DSC-3750-small-darker d-bloc" id="bloc-1">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-4">
-				<h1 class="mg-md header-text ">
-					Baxi
-				</h1>
-				<p class="sub-header-text  ">
-					Creating a gig economy for blue collar workers
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<div class="divvy">
-				</div>
-			</div>
-			<div class="col-sm-4">
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-1 END -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- bloc-vision -->
-<div class="bloc bgc-tiffany-blue d-bloc" id="bloc-vision">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 class="text-center mg-clear tc-white ">
-					Enabling low wage workers to own personal motorcycles<br>
-				</h2>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-vision END -->
+    <style>
+      body {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        color: #222;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        /* line-height: 1.618em; */
+        /* background: #464646 url("lake.jpg") center center no-repeat fixed; */
+        /* background: #464646; */
+        /* background-size: cover; */
+        text-align: center;
+      }
+      h1 {
+        /* font-family: "Merriweather", serif; */
+        font-weight: 700;
+        font-size: 72px;
+        /* line-height: 1.618em; */
+      }
+      h2 {
+        /* font-family: "Merriweather", serif; */
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.618em;
+      }
+      section {
+        max-width: 800px;
+        margin: 8% auto 1em auto;
+        /* background-color: #222; */
+        opacity: 0.8;
+        filter: alpha(opacity=80); /* For IE8 and earlier */
+        /* color: #fff; */
+        padding: 1em 5%;
+      }
 
-<!-- bloc-3 -->
-<div class="bloc bgc-sunglow l-bloc" id="bloc-3">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 class="text-center mg-clear tc-outer-space ">
-					Creating happy families<br>
-				</h2>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-3 END -->
+      a {
+        color: #ed64a6;
+      }
+      a:focus {
+        outline: none;
+        outline-offset: inherit;
+      }
+      @media (max-device-width: 1027px) {
+        body {
+          text-align: center;
+          font-size: larger;
+        }
+        section {
+          max-width: 90%;
+        }
+      }
 
-<!-- bloc-hyperlocal -->
-<div class="bloc bgc-white l-bloc" id="bloc-hyperlocal">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<img src="img/lazyload-ph.png" data-src="img/undraw_mail1_uab6.png" class="center-block img-responsive lazyload" />
-			</div>
-			<div class="col-sm-6">
-				<h2 class="mg-lg tc-amaranth">
-					Businesses Who Need Hyperlocal Delivery Solutions
-				</h2>
-				<h3 class="mg-sm bottom-pad">
-					Use your own bike-enabled employees for deliveries at half the cost of third-party services
-				</h3><a href="index.html" class="btn btn-lg btn-tiffany-blue">More Info</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-hyperlocal END -->
+      @media (max-device-width: 640px) {
+        section {
+          max-width: 97%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Baxi Fresh is now <a href="https://www.6to8.in">6to8.in</a></h1>
+      <a href="https://www.6to8.in"
+        ><img height="200" src="./img/6to8_logo_transparent.png"
+      /></a>
+      <!-- <img height="200" src="./img/6to8_logo_transparent.png" /> -->
+      <h2>New name, same great service</h2>
+      <!-- <h3>
+        The new web address for this page is
+        <a href="https://www.6to8.in">https://www.6to8.in</a>
+      </h3> -->
+      <!-- <h3>...You will be transferred to the new site in a moment...</h3> -->
 
-<!-- bloc-employees -->
-<div class="bloc l-bloc bgc-white-smoke" id="bloc-employees">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6 col-sm-push-6">
-				<img src="img/lazyload-ph.png" data-src="img/undraw_fans_gr54.png" class="img-responsive lazyload" />
-			</div>
-			<div class="col-sm-6 col-sm-pull-6">
-				<h2 class="mg-lg tc-tiffany-blue">
-					Businesses Who Want To Empower Employees
-				</h2>
-				<h3 class="mg-sm bottom-pad">
-					Attract and retain loyal employees. You are providing them a means of transportation for their family
-				</h3><a href="index.html" class="btn btn-lg btn-tiffany-blue">More Info</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-employees END -->
-
-<!-- bloc-individual -->
-<div class="bloc bgc-white l-bloc" id="bloc-individual">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<img src="img/lazyload-ph.png" data-src="img/undraw_eating_together_tjhx.png" class="center-block img-responsive lazyload" />
-			</div>
-			<div class="col-sm-6">
-				<h2 class="mg-lg tc-tiffany-blue">
-					Individuals Who Want to Upgrade Their Life
-				</h2>
-				<h3 class="mg-sm bottom-pad">
-					Get a earning asset and increase your monthly income by upto Rs 10,000.
-				</h3><a href="index.html" class="btn btn-lg btn-tiffany-blue">More Info</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-individual END -->
-
-<!-- bloc-7 -->
-<div class="bloc bgc-sunglow l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="mg-md centered">
-					Concept
-				</h1>
-			</div>
-		</div>
-		<div class="row voffset">
-			<div class="col-sm-4">
-				<h3 class="mg-md tc-outer-space">
-					Part-Time Baxi Owners
-				</h3>
-				<p class=" text-left">
-					Employees <br>Individuals
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md text-center  tc-outer-space">
-					Connected by the&nbsp;<strong>BAXI</strong> app
-				</h3><img src="img/lazyload-ph.png" data-src="img/undraw_confirmed_81ex_2.png" class="img-responsive lazyload" />
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md text-right tc-outer-space">
-					On-Demand Gigs
-				</h3>
-				<p class=" text-right">
-					Commuters <br>Hyperlocal Delivery <br>Courier Services <br>Last-Mile Logistics <br>Field Services
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
-
-<!-- bloc-8 -->
-<div class="bloc b-divider bgc-white-smoke l-bloc" id="bloc-8">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="fa fa-thumbs-up icon-round icon-md icon"></span>
-				</div>
-				<h3 class="text-center mg-md">
-					100% Financed Motorcycle
-				</h3>
-				<p class="text-center">
-					Low down payment and highly competetive interest rates
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="fa fa-inr icon-round icon-md icon"></span>
-				</div>
-				<h3 class="text-center mg-md">
-					Extra Gigs Daily To Earn EMI
-				</h3>
-				<p class="text-center">
-					Bike Taxi, Hyperlocal delivery, Courier, Field Services
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="fa fa-users icon-round icon-md icon"></span>
-				</div>
-				<h3 class="text-center mg-md">
-					Whole Family Benefits
-				</h3>
-				<p class="text-center">
-					No one stays unemployed
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-8 END -->
-
-<!-- bloc-9 -->
-<div class="bloc bgc-sunglow l-bloc" id="bloc-9">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center mg-md">
-					Partners
-				</h1>
-				<p class="text-center">
-					Just some of the business currently using our product.
-				</p>
-			</div>
-		</div>
-		<div class="row voffset">
-			<div class="col-sm-3">
-				<img src="img/lazyload-ph.png" data-src="img/google.png" class="img-responsive center-block lazyload" />
-			</div>
-			<div class="col-sm-3">
-				<img src="img/lazyload-ph.png" data-src="img/facebook.png" class="img-responsive center-block lazyload" />
-			</div>
-			<div class="col-sm-3">
-				<img src="img/lazyload-ph.png" data-src="img/stripe.png" class="img-responsive center-block lazyload" />
-			</div>
-			<div class="col-sm-3">
-				<img src="img/lazyload-ph.png" data-src="img/yahoo.png" class="img-responsive center-block lazyload" />
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-9 END -->
-
-<!-- bloc-investors -->
-<div class="bloc bgc-white l-bloc" id="bloc-investors">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-xs-12 col-md-8 col-md-offset-2">
-				<h1 class="centered mg-lg">
-					Investors
-				</h1>
-				<p class=" text-center mg-clear">
-					Institutional investors include the <strong>Hindustan Times Group</strong> and the <strong>Dalmia Bharat Group.</strong>&nbsp; <br> <br>Individual investors are led by &nbsp;<strong>Alok Mittal</strong>&nbsp;(CEO, Indifi Techologies), <strong>Manish Khetarpal</strong>&nbsp;(Founder/Partner at Waterbridge Ventures) and <strong>Ashok Krishnan</strong> (Global Head of Infrastructure at &nbsp;Bank of America Merill Lynch)<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-investors END -->
-
-<!-- bloc-team -->
-<div class="bloc bgc-tiffany-blue d-bloc white" id="bloc-team">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center mg-md">
-					Team
-				</h1>
-				<p class="sub-heading text-center">
-					We are a group of skilled individuals.
-				</p>
-			</div>
-		</div>
-		<div class="row voffset-lg">
-			<div class="col-sm-2">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar lazyload" />
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md">
-					Ashutosh Johri
-				</h3>
-				<p class="blocs-team-details">
-					Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-				</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm"></span></a>
-			</div>
-			<div class="col-sm-2">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar lazyload" />
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md">
-					Manu Rana
-				</h3>
-				<p class="blocs-team-details">
-					Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-				</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm"></span></a>
-			</div>
-		</div>
-		<div class="row voffset-lg">
-			<div class="col-sm-2">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar lazyload" />
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md">
-					Parth Kaura
-				</h3>
-				<p class="blocs-team-details">
-					Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-				</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm"></span></a>
-			</div>
-			<div class="col-sm-2">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar lazyload" />
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md">
-					Saif Khan
-				</h3>
-				<p class="blocs-team-details">
-					Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-				</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm"></span></a>
-			</div>
-		</div>
-		<div class="row voffset-lg voffset">
-			<div class="col-sm-2">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar lazyload" />
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md">
-					Sahil Narain
-				</h3>
-				<p class="blocs-team-details">
-					Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-				</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm"></span></a>
-			</div>
-			<div class="col-sm-2">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar lazyload" />
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md">
-					Sandip Gupta
-				</h3>
-				<p class="blocs-team-details">
-					Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-				</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm"></span></a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-team END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
-
-
-<!-- Footer - bloc-12 -->
-<div class="bloc bgc-white l-bloc" id="bloc-12">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-3">
-				<h3 class="mg-md bloc-mob-center-text">
-					About
-				</h3><a href="index.html" class="a-btn a-block bloc-mob-center-text">The team</a><a href="index.html" class="a-btn a-block bloc-mob-center-text">Contact us</a>
-			</div>
-			<div class="col-sm-3">
-				<h3 class="mg-md bloc-mob-center-text">
-					Get the App
-				</h3><a href="index.html" class="a-btn a-block bloc-mob-center-text">iPhone</a><a href="index.html" class="a-btn a-block bloc-mob-center-text">Android</a>
-			</div>
-			<div class="col-sm-3">
-				<h3 class="mg-md bloc-mob-center-text">
-					Follow Us
-				</h3><a href="index.html" class="a-btn a-block bloc-mob-center-text">Twitter</a><a href="index.html" class="a-btn a-block bloc-mob-center-text">Facebook</a>
-			</div>
-			<div class="col-sm-3">
-				<h3 class="mg-md bloc-mob-center-text">
-					Company
-				</h3><a href="index.html" class="a-btn a-block bloc-mob-center-text">Terms of use</a><a href="index.html" class="a-btn a-block bloc-mob-center-text">Privacy</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-12 END -->
-
-</div>
-<!-- Main container END -->
-    
-
-
-<!-- Preloader -->
-<div id="page-loading-blocs-notifaction"></div>
-<!-- Preloader END -->
-
-</body>
+      <p>You will be transferred to the new site in a moment</p>
+      <p>
+        If you have waited more than a few seconds and you are still seeing this
+        message, please click on the link above.
+      </p>
+    </section>
+  </body>
 </html>
